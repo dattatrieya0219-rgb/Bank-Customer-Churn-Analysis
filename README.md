@@ -21,6 +21,8 @@ A retail bank is losing **1 in 5 customers**. Management needs to know **which c
 
 GenAI (ChatGPT) was used to draft SQL queries and summarise findings; every output was checked against the data manually.
 
+![Dashboard](dashboard.png)
+   
 ## Key KPIs
 
 | KPI | Value |
@@ -63,6 +65,7 @@ The single riskiest segment is **German customers aged 50–59, with 70.0% churn
 | `churn_analysis.sql` | All SQL: data quality checks, KPIs, segment analysis, CTE, window function |
 | `Bank_Churn_Dashboard.xlsx` | Excel dashboard: KPI cards, 6 segment tables with charts, high-risk segment (all live formulas) |
 | `dashboard.png` | Screenshot of the Power BI dashboard |
+| `Bank_Churn_Dashboard.pbix` | Power BI dashboard: 4 KPI cards and churn rate by country, age, products, and activity |
 
 ## Author
 
